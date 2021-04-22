@@ -19,7 +19,7 @@ public class Question4
      
     Scanner in = new Scanner(System.in);
     int i=0, j=5;
-    while(i<6)
+    while(i<5)
     {
     j = 5;
     while(j>i)
