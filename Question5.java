@@ -27,11 +27,10 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.println("enter a number"); 
+    System.out.println(""); 
     int n=in.nextInt(),c;
     int [] a=new int[n];
     int [] b=new int[n];
-    System.out.println("enter "+n+" elements");
     for(int i=0;i<n;i++) 
     {
       a[i]=in.nextInt();
@@ -67,7 +66,6 @@ public class Question5
       
     }
           
-          System.out.println("mode:"); 
     for(int i=0;i<n;i++) 
     {
         if(b[i]==m)
