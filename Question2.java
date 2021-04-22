@@ -11,12 +11,12 @@ public class Question2
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.println("Input weight in kilogram: ");
+    System.out.print("");
     double weight = in.nextDouble();
-    System.out.println("Input height in meters: ");
+    System.out.print("");
     double height = in.nextDouble();
     double BMI = weight / (height * height);
-    System.out.println("The Body Mass Index (BMI) is " + BMI);
+    System.out.println(BMI);
     
 
   }
